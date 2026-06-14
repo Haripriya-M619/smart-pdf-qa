@@ -53,11 +53,7 @@ vectorstores: dict[str, FAISS] = {}      # session_id → FAISS index
 sessions: dict[str, dict] = {}          # session_id → session metadata + history
 
 # Shared embedding model (loaded once at startup)
-embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L2-v2",
-    model_kwargs={"device": "cpu"},
-    encode_kwargs={"normalize_embeddings": True},
-)
+embeddings = FakeEmbeddings(size=384)
 
 # ── Schemas ────────────────────────────────────────────────────────────────────
 

@@ -17,8 +17,6 @@ A full-stack RAG (Retrieval-Augmented Generation) application that lets you uplo
 
 ## Screenshots
 
-## Frontend
-
 <img width="1912" height="947" alt="Screenshot 2026-06-14 124605" src="https://github.com/user-attachments/assets/e9d45c4e-763d-413c-a0f2-6d6f180642a7" />
 
 <img width="1918" height="938" alt="Screenshot 2026-06-14 124713" src="https://github.com/user-attachments/assets/e686733d-fd3a-41da-b2f9-da7d90ce1948" />
